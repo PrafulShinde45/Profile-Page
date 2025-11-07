@@ -68,3 +68,37 @@ nav a:hover{
   background-color: #007bff;
   border-radius: 4px;
 }
+
+/* About Section */
+
+.about-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin: 20px;
+  
+
+}
+
+.about-image{
+  width: 200px;
+  border-radius: 10px;
+}
+
+.btn{
+  display:inline-block;
+  padding: 5px 5px;
+  margin-top: 10px;
+
+  background-color: lch(48.28% 62.93 283.43);
+  color:white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3;
+}
+
+.btn:hover{
+  background-color: #111;
+}
+
