@@ -135,3 +135,30 @@ gap: 15px;
   background-color: #007bff;
   transition: 0.3s;
 }
+
+/* project section */
+
+.project-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+
+}
+
+.card{
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+
+}
+
+.card img{
+  width: 200px;
+  border-radius: 5px;
+ 
+}
