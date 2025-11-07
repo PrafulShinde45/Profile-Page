@@ -204,3 +204,14 @@ input , textarea{
       background-color: #0056b3;
     }
 
+    footer{
+      margin-top: 40px;
+      width: 100%;
+      background: #111;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      opacity: 90%;
+    }
+    
+
