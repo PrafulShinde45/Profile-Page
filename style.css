@@ -40,3 +40,31 @@ header{
   
 }
 
+nav{
+  background-color: #111;
+  position: static;
+  top: 0;
+  z-index: 1000;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav li{
+  margin:0px 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+}
+
+nav a:hover{
+  background-color: #007bff;
+  border-radius: 4px;
+}
