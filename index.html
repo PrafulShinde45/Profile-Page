@@ -6,20 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praful Shinde | Profile</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
 
-  <header>
+  <header id="header" class="header fade-in">
     <div class="container header-content">
-  <img src="assets/profile.png" alt="Praful Shinde" class="profile-image">
-
-      <div class="details">
-        <h1>Praful Vilas Shinde</h1>
-        <p>Full Stack Developer</p>
+      <div class="hero-text">
+        <h1 class="name-glow">Praful Vilas Shinde</h1>
+        <p id="role" class="typewriter"></p>
+        <div class="social-links">
+          <a href="http://www.linkedin.com/in/praful-shinde" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/PrafulShinde45" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </div>
     </div>
   </header>
+
   <nav>
     <ul>
       <li><a href="#about">About</a></li>
@@ -29,192 +39,194 @@
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <!-- Dark Mode Toggle Switch -->
+    <div class="toggle-switch">
+      <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+      <label for="dark-mode-toggle" class="toggle-label">
+        <span class="toggle-slider">
+          <span class="sun-icon">💡</span>
+          <span class="moon-icon">🌙</span>
+        </span>
+      </label>
+    </div>
   </nav>
 
-
-  <section id="about" class="container">
+  <section id="about" class="container fade-in">
     <h2>About Me</h2>
-    <div class="about-flex">
-  <img src="assets/profile.png" alt="Praful shinde" class="about-image">
-      <div>
-        <p>
-          Hello! I’m Praful Shinde, a passionate Full Stack Developer who loves crafting efficient and user-friendly web
-          applications.
-          I specialize in building scalable systems using Java, Spring Boot, Node.js, and React.js.
-          My experience spans both frontend and backend development, allowing me to deliver complete end-to-end
-          solutions.
-          I have a solid understanding of databases such as SQL and MongoDB for effective data management.
-          Clean code, performance optimization, and responsive design are at the core of my development process.
-          I enjoy transforming ideas into working products that solve real-world challenges.
-          Collaboration and continuous learning are key principles that drive my work ethic.
-          
-        </p>
-
-
-  <a href="assets/Praful_shinde_9022103185.pdf" class="btn">Download resume</a>
+    <div class="about-card">
+      <div class="about-flex">
+        <img src="assets/profile.png" alt="Praful shinde" class="about-image">
+        <div class="about-content">
+          <blockquote id="quote" class="about-quote">"Code is poetry in motion."</blockquote>
+          <p>
+            Hello! I’m Praful Shinde, a passionate Full Stack Developer who loves crafting efficient and user-friendly web
+            applications.
+            I specialize in building scalable systems using Java, Spring Boot, Node.js, and React.js.
+            My experience spans both frontend and backend development, allowing me to deliver complete end-to-end
+            solutions.
+            I have a solid understanding of databases such as SQL and MongoDB for effective data management.
+            Clean code, performance optimization, and responsive design are at the core of my development process.
+            I enjoy transforming ideas into working products that solve real-world challenges.
+            Collaboration and continuous learning are key principles that drive my work ethic.
+          </p>
+          <a href="assets/Praful_shinde_9022103185.pdf" class="btn">Download resume</a>
+        </div>
       </div>
     </div>
   </section>
 
-
-  <section id="skills" class="container">
+  <section id="skills" class="container fade-in">
     <h2>Technical Skills</h2>
     <div class="skills-grid">
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS">
         <span>React JS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node JS">
         <span>Node JS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express JS">
         <span>Express JS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
         <span>MongoDB</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
         <span>JavaScript</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
         <span>Python</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
         <span>SQL</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next JS">
         <span>Next JS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="assets/aws.png" alt="AWS">
         <span>AWS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
         <span>Java</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
         <span>GitHub</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
         <span>HTML</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
         <span>CSS</span>
       </div>
-      <div class="skills">
+      <div class="skills skill-3d">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
         <span>TypeScript</span>
       </div>
     </div>
   </section>
+
+  <section id="projects" class="container fade-in">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card project-lift">
+        <img src="assets/Screenshot (14).png" alt="">
+        <h3>Real Time Chat app</h3>
+        <p> This is real time application Developed using mern Stack with Socket io can send the realtime messages</p>
+        <a href="https://realtime-chat-app-iq1x.onrender.com/login" class="btnn" target="_blank">Live</a>
+      </div>
+      <div class="card project-lift">
+        <img src="assets/Screenshot (172).png" alt="">
+        <h3>Crowdfunding Platform</h3>
+        <p>This is the Crowdfunding platform built using next js integrated with razarpay</p>
+        <a href="https://crowdfunding-platform-orpin.vercel.app/" class="btnn" target="_blank">Live</a>
+      </div>
+      <div class="card project-lift">
+        <img src="assets/Screenshot (12).png" alt="">
+        <h3>Personal Portfolio Website</h3>
+        <p>This is my Personal Portfolio website developed using react js </p>
+        <a href="https://prafulshinde45.vercel.app/" class="btnn" target="_blank">Live</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="container fade-in">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>Innomatics Reasaerch Lab</h3>
+      <p><em>Jan 2025 – Mar 2025 | Banglore, Karnataka</em></p>
+      <ul>
+        <li>Developed and maintained MERN stack applications for internal tools.</li>
+        <li>Designed and implemented front-end interfaces using React.js.</li>
+        <li>Worked with MongoDB for data management and optimized performance.</li>
+      </ul>
+    </div>
+    <div class="exp-card">
+      <h3>Webin Technovation Pvt Ltd</h3>
+      <p><em>Dec 2023 – Jan 2024 | Nashik, Maharashtra</em></p>
+      <ul>
+        <li>Developed reusable UI components in React.js and optimized performance using efficient state management techniques</li>
+        <li>Integrated RESTful APIs with frontend modules, ensuring seamless data flow between client and server</li>
+        <li>Worked closely with backend developers to align API design with frontend requirements</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="container fade-in">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Education</th>
+        <th>College</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>BE</td>
+        <td>SNJB KBJ COE</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>MSG Junior College</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>KBH Vidyalaya</td>
+        <td>2019</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contact" class="container fade-in">
+    <h2>Contact</h2>
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter Your name " required>
+      <label>email</label>
+      <input type="email" placeholder="Enter Your Email" required>
+      <label>Message</label>
+      <textarea rows="4" placeholder="Enter Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p> © 2025 Praful Shinde. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
-
-<section id="projects" class="container">
-  <h2>Projects</h2>
-  <div class="project-grid">
-    <div class="card">
-  <img src="assets/Screenshot (14).png" alt="">
-      <h3>Real Time Chat app</h3>
-      <p> This is real time application Developed using mern Stack with Socket io can send the realtime messages</p>
-      <a href="https://realtime-chat-app-iq1x.onrender.com/login" class="btnn" target="_blank">Live</a>
-    </div>
-
-    <div class="card">
-  <img src="assets/Screenshot (172).png" alt="">
-      <h3>Crowdfunding Platform</h3>
-      <p>This is the Crowdfunding platform built using next js integrated with razarpay</p>
-      <a href="https://crowdfunding-platform-orpin.vercel.app/" class="btnn" target="_blank">Live</a>
-    </div>
-
-    <div class="card">
-  <img src="assets/Screenshot (12).png" alt="">
-      <h3>Personal Portfolio Website</h3>
-      <p>This is my Personal Portfolio website developed using react js </p>
-      <a href="https://prafulshinde45.vercel.app/" class="btnn" target="_blank">Live</a>
-    </div>
-  </div>
-</section>
-
-<section id="experience" class="container">
-  <h2>Experience</h2>
-  <div class="exp-card">
-    <h3>Innomatics Reasaerch Lab</h3>
-    <p><em>Jan 2025 – Mar 2025 | Banglore, Karnataka</em></p>
-    <ul>
-      <li>Developed and maintained MERN stack applications for internal tools.</li>
-      <li>Designed and implemented front-end interfaces using React.js.</li>
-      <li>Worked with MongoDB for data management and optimized performance.</li>
-    </ul>
-
-  </div>
-
-  <div class="exp-card">
-    <h3>Webin Technovation Pvt Ltd</h3>
-    <p><em>Dec 2023 – Jan 2024 | Nashik, Maharashtra</em></p>
-    <ul>
-      <li>Developed reusable UI components in React.js and optimized performance using efficient state management techniques</li>
-      <li>Integrated RESTful APIs with frontend modules, ensuring seamless data flow between client and server</li>
-      <li>Worked closely with backend developers to align API design with frontend requirements</li>
-    </ul>
-
-  </div>
-</section>
-
-
-<section id="education" class="container">
-  <h2>Education</h2>
-  <table>
-    <tr>
-      <th>Education</th>
-      <th>College</th>
-      <th>Year</th>
-    </tr>
-    <tr>
-      <td>BE</td>
-      <td>SNJB KBJ COE</td>
-      <td>2025</td>
-    </tr>
-    <tr>
-      <td>12th
-      </td>
-      <td>MSG Junior College</td>
-      <td>2021</td>
-    </tr>
-    <tr>
-      <td>10th</td>
-      <td>KBH Vidyalaya</td>
-      <td>2019</td>
-    </tr>
-  </table>
-</section>
-
-
-<section id="contact" class="container">
-  <h2>Contact</h2>
-  <form>
-    <label>Name</label>
-    <input type="text" placeholder="Enter Your name " required>
-    <label>email</label>
-    <input type="email" placeholder="Enter Your Email" required>
-    <label>Message</label>
-    <textarea rows="4" placeholder="Enter Your Message" required></textarea>
-    <button type="submit">Submit</button>
-  </form>
-</section>
-
-<footer>
-  <p> © 2025 Praful Shinde. All Rights Reserved.</p>
-</footer>
